@@ -35,19 +35,26 @@ Data Set Used: Waterpoint data for the Republic of Tanzania:
 ### Question 1: What is the operational status of waterpoints in Tanzania?
 #### [Notebook](./Phase_3_project_Saad/EDA.ipynb)
 
+-  61.3% are fully or partly functional, 38.7% are non functional.
 
 ### Question 2: What is the reported Quality and Quantity of Working (Functioning and Functioning Needs Repair) waterpoints?
 #### [Notebook](./Phase_3_project_Saad/EDA.ipynb)
 
+-   All regions are have more good quality pumps and most regions have good quantity pumps. Some regions however can benifit from a water need assessment to ensure their pumps are prviding sufficient water to the population
+
 
 ### Question 3: Is there a difference between the average age of Waterpoints by Operation Status?
 #### [Notebook](./notebooks/EDA.ipynb)
+
+-   The older the pumps the more likey they are to be non-functional. Among the functional ones, the older they are the more likely they need repairs.
 
 
 
 # Modeling
 ### Can current data on waterpoints be used to create a Classifer to predict operational status?
 #### [Notebook](./Phase_3_project_Saad/Modelling.ipynb)
+
+Yes we can use tuned XGBoost or tuned Gradient boosting to predict operational status of the pumps. Both provide almost identical accuracy score but tuned Gradient boosting is better at predicting partly functional ones.
 
 
 
