@@ -77,9 +77,9 @@ Futher analysis into the following areas could yield additional insights.
 # Repository Structure
 ```
 --notebooks
-----data_cleaning.ipynb
-----eda.ipynb
-----classifer_modeling.ipynb
+----Data cleaning and EDA prep.ipynb
+----EDA.ipynb
+----Modekling.ipynb
 --data
 ----train_processed_values.csv
 ----test_processed_values.csv
