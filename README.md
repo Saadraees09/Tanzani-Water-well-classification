@@ -33,7 +33,7 @@ Data Set Used: Waterpoint data for the Republic of Tanzania:
 
 # EDA Questions Explored
 ### Question 1: What is the operational status of waterpoints in Tanzania?
-#### [Notebook](./Phase_3_project_Saads/EDA.ipynb)
+#### [Notebook](./Phase_3_project_Saad/EDA.ipynb)
 
 
 ### Question 2: What is the reported Quality and Quantity of Working (Functioning and Functioning Needs Repair) waterpoints?
