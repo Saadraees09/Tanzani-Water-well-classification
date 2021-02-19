@@ -13,7 +13,6 @@ Presentation: [here](https://docs.google.com/presentation/d/15tefq3OIQ0aiemq4IUC
 
 ![tanzania_map](images/tanzania-map.gif)
 
-
 # Introduction
 
 The goal of this project is to use data from the Tanzania Ministry of Water to gain insight into the country's waterpoints.   
@@ -33,21 +32,21 @@ Data Set Used: Waterpoint data for the Republic of Tanzania:
 
 # EDA Questions Explored
 ### Question 1: What is the operational status of waterpoints in Tanzania?
-#### [Notebook](./notebooks/eda.ipynb)
+#### [Notebook](./notebooks/EDA.ipynb)
 
 
 ### Question 2: What is the reported Quality and Quantity of Working (Functioning and Functioning Needs Repair) waterpoints?
-#### [Notebook](./notebooks/eda.ipynb)
+#### [Notebook](./notebooks/EDA.ipynb)
 
 
 ### Question 3: Is there a difference between the average age of Waterpoints by Operation Status?
-#### [Notebook](./notebooks/eda.ipynb)
+#### [Notebook](./notebooks/EDA.ipynb)
 
 
 
 # Modeling
 ### Can current data on waterpoints be used to create a Classifer to predict operational status?
-#### [Notebook](./notebooks/modeling.ipynb)
+#### [Notebook](./notebooks/Modelling.ipynb)
 
 
 
@@ -86,4 +85,3 @@ Futher analysis into the following areas could yield additional insights.
 ----final_submission.csv
 ----original (dir for raw data downloaded from challenge website)
 --extras (dir for Project Presentation and other supporting files)
-```
